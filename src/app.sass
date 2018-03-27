@@ -1,0 +1,51 @@
+*
+  box-sizing: border-box
+
+.container
+  display: flex
+  flex-flow: column nowrap
+  align-items: center
+  margin: 0 auto
+  padding: 0 20px
+  background: antiquewhite
+  max-width: 1000px
+  width: 90%
+  min-height: 600px
+  border: 5px solid black
+
+.form
+  display: flex
+  flex-flow: column nowrap
+  align-items: center
+  font-size: 1.3em
+  border-bottom: 5px solid black
+  //margin: 0 -20px
+  padding: 20px
+  width: calc(100% + 40px)
+  //border-radius: 30px
+  background: cornsilk
+
+.form__input
+  width: 90%
+  margin-top: 10px
+  font-size: 1.5em
+
+.todos
+  width: 90%
+
+.todos__todo
+  background: azure
+  margin: 20px 0
+  border: 5px solid black
+  border-radius: 10px
+  padding: 10px
+  transition: 0.5s
+  cursor: url("https://cdn4.iconfinder.com/data/icons/podcast-collection/100/delete-32.png"), auto
+
+.todos__todo:hover
+  background: red
+
+.todos__text
+  word-wrap: break-word
+  font-size: 1.4em
+  padding-left: 10px
